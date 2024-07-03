@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  scroll-behavior:smooth;
+}
+
+img {
+  width: 100vh;
+  height: 100vh;
+}
+
+#section1 {
+  position:relative;
+  display: flex;
+  width: 50%;
+  float: left;
+}
+
+#section2 {
+  display: flex;
+  width: 50%;
+  float: right;
+  position: relative;
+}
+
+#librosf{
+  background-color:#6E929A;
+  z-index:1;
+}
+
+#study{
+  position:absolute;
+  display:flex;
+  width:800px;
+  height:auto;
+  z-index:2;
+  top:42%;
+ left:20%;
+}
+
+#fondot{
+  z-index:1;
+}
+
+#usuario{
+  position:absolute;
+  display:flex;
+  width:200px;
+  height:auto;
+  top:15%;
+  left:45%;
+  z-index:2;
+}
+
+#div1 {
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size:100px;
+  position: absolute; 
+  top: 10%; 
+  left: 20%;
+  z-index: 2; 
+  text-align: center; 
+}
+
+.form-container {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 20px;
+  width: 800px;
+  height: 800px;
+  margin: 20px auto;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+ input {
+  background-color:#D4F7FF ;
+  margin: 50px 0;
+  font-family: "Kadwa", serif;
+  font-size: 25px;
+}
+
+input {
+  padding:15px;
+  border-radius: 15px;
+  border: none;
+}
+
+#password{
+  background-image: url('img/ojo.png');
+  background-repeat: no-repeat;
+  background-position:right;
+  background-size:80px;
+}
+
+button {
+  font-family: "Kadwa", serif;
+  font-size: 25px;
+  background-color: #09657A;
+  margin: 80px;
+  color: white;
+  cursor: pointer;
+  align-items: flex-end;
+  border-radius:20px;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+ /*pagian 2*/
+  #nube{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0; 
+}
+
+.C1 {
+    position: absolute;
+    top: 135%; 
+    left: 44%; 
+    transform: translate(-50%, -50%); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    margin: 0;
+    color: white; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    z-index: 2; /* Asegura que esté sobre los cursos */
+
+}
+
+#C2 {
+  position: absolute;
+  top: 135%; 
+  left: 58%; 
+  transform: translate(-50%, -50%); 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100px;
+  margin: 0;
+  color: rgb(9, 10, 80); /* Color del texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+  z-index: 2; /* Asegura que esté sobre los cursos */
+
+}
+
+.cursos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 175%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 80px;
+  border-radius: 15px;
+  z-index: 1;
+  width: 450px; 
+  height: 450px; 
+}
+
+.cursos h2 {
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+.cursos img {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.filmmaking {
+  left: 20%;
+}
+
+.web {
+  left: 50%;
+  background-color: rgb(161, 185, 206);
+}
+
+.ingles {
+  left: 80%;
+  background-color: rgb(161, 185, 206);
+}
+
+.dd3{
+  width: 80px !important;
+  height: auto !important;
+}
+
+.BT{
+position: absolute;
+top: 200%; 
+left: 47%; 
+transform: translate(-50%, -50%);
+z-index: 3;
+height: auto;
+width: 300px;
+}
+
+.flecha{
+  position: absolute;
+  top: 115%; 
+  left: 10%; 
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  height: auto;
+  width: 300px;
+  
+}
+
+.Barra1{
+  position: absolute;
+  top: 115%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  height: 60px;
+  width: auto;
+}
+
+.Skip{
+  position: absolute;
+  top: 115%; 
+  left: 90%; 
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:50px;
+}
+
+.Skip:hover{
+  color: brown;
+}
+
+/*pagian 3*/
+
+#fondotr{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0; 
+  opacity: 50%;
+}
+
+#imagenn {
+  position: absolute; /* Posiciona el contenedor de la imagen del fotógrafo */
+  top: 260%; 
+  left: 22%; 
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+#fotografo{
+  width:700px ;
+  height: auto;
+}
+
+.pagina3 .Barra1{
+  top:220%;
+}
+
+.pagina3 .flecha{
+  top:220%;
+}
+
+.pagina3 .Skip{
+  top:220%;
+}
+
+.pagina3 .BT{
+top:300%;
+}
+
+.pagina3 .C1{
+  top:235%;
+  left:50%;
+  color:black;
+}
+
+
+
+
+
+.lista {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  top: 275%; 
+  left: 65%; 
+  transform: translate(-50%, -50%);
+  z-index: 7; 
+}
+/*palitos*/
+.lista li {
+  position: relative;
+  padding-left: 40px; 
+  margin-bottom: 150px;
+}
+
+.lista li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5px; 
+  height: 60px; 
+  background-color: #5947ff; 
+  border-radius: 10%; 
+}
+
+.lista li:nth-child(1)::before {
+  background-color: #00FF00; 
+}
+
+.lista li:nth-child(3)::before {
+  background-color: #ff00c8; 
+}
+
+.lista li::after {
+  content: attr(data-text); 
+  position: absolute;
+  left: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Arial, sans-serif; 
+  font-size: 80px; 
+  color: #333; 
+}
+
+.add {
+  position: absolute;
+  top: 20%; 
+  left: 1200%; 
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: auto;
+}
+
+
+
+
